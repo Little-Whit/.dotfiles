@@ -8,6 +8,6 @@ rm ~/.gitconfig
 
 ln -sf $DOTFILES_DIR/.bashrc ~/.bashrc
 ln -sf $DOTFILES_DIR/.vimrc ~/.vimrc
-ln -sf $DOTFILES_DIR/.vimrc ~/.vimrc
+ln -sf $DOTFILES_DIR/.gitconfig ~/.gitconfig
 
 echo "Dotfiles setup complete!"
