@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTFILES_DIR=~/dotfiles
+DOTFILES_DIR=~/.dotfiles
 
 rm ~/.bashrc
 rm ~/.vimrc
