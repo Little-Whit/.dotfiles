@@ -1,0 +1,7 @@
+[alias]
+    graph = log --all --graph --decorate 
+[user]
+	email = 1952218168x@gmail.com
+	name = Little-Whit
+[core]
+	editor = vim
