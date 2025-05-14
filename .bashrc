@@ -194,23 +194,6 @@ bind '"\t": menu-complete'
 bind '"\e[Z": menu-complete-backward'
 
 # Proxy configuration
-# enable proxy
-enable_proxy() {
-    export HTTP_PROXY="http://172.28.176.1:7890"
-    export HTTPS_PROXY="http://172.28.176.1:7890"
-    export FTP_PROXY="http://172.28.176.1:7890"
-    export NO_PROXY="localhost,127.0.0.1,::1"
-    echo "Proxy enabled"
-}
-
-# disable proxy
-disable_proxy() {
-    unset HTTP_PROXY
-    unset HTTPS_PROXY
-    unset FTP_PROXY
-    unset NO_PROXY
-    echo "Proxy disabled"
-}
 
 # Zoom Windows
 export QT_SCALE_FACTOR=1.75
